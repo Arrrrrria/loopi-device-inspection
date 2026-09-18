@@ -40,7 +40,40 @@
       "backGlass": "Excellent"
     },
     "publicNotes": "Published directly from Google Sheets",
-    "photos": [],
+    "photos": [
+      {
+        "label": "Front",
+        "src": "assets/reports/R26-001/01-front.jpg"
+      },
+      {
+        "label": "Back",
+        "src": "assets/reports/R26-001/02-back.jpg"
+      },
+      {
+        "label": "Top Frame",
+        "src": "assets/reports/R26-001/03-top-frame.jpg"
+      },
+      {
+        "label": "Bottom Frame",
+        "src": "assets/reports/R26-001/04-bottom-frame.jpg"
+      },
+      {
+        "label": "Left Frame",
+        "src": "assets/reports/R26-001/05-left-frame.webp"
+      },
+      {
+        "label": "Right Frame",
+        "src": "assets/reports/R26-001/06-right-frame.jpg"
+      },
+      {
+        "label": "Battery Health",
+        "src": "assets/reports/R26-001/07-battery-health.png"
+      },
+      {
+        "label": "Device Info",
+        "src": "assets/reports/R26-001/08-device-info.jpg"
+      }
+    ],
     "disclaimer": "This report reflects the visible condition and testable functions of the device at the time of inspection only.\r\n\r\nThis is not an official Apple certification and does not constitute manufacturer warranty.\r\n\r\nAny later damage, repair, liquid exposure, account lock, or status change may invalidate this report."
   }
 }
