@@ -27,14 +27,80 @@ function galleryMarkup(photos) {
   if (!Array.isArray(photos) || photos.length === 0) {
     return '<div class="empty-gallery">Inspection photos will appear here once they are synced from the Loopi inspection workflow.</div>';
   }
+
+  const normalize = value => String(value || '').trim().toLowerCase();
+
+  const primaryOrder = ['front', 'back', 'battery health', 'device info'];
+  const frameOrder = ['top frame', 'bottom frame', 'left frame', 'right frame'];
+
+  const findByLabel = label =>
+    photos.find(photo => normalize(photo.label) === label);
+
+  const primary = primaryOrder
+    .map(findByLabel)
+    .filter(Boolean);
+
+  const frames = frameOrder
+    .map(findByLabel)
+    .filter(Boolean);
+
+  const used = new Set([...primary, ...frames]);
+
+  const other = photos.filter(photo => !used.has(photo));
+
+  if (other.length) {
+    primary.push(...other);
+  }
+
+  function card(photo) {
+    const label = text(photo.label, 'Device photo');
+
+    return `
+      <figure class="gallery-card">
+        <div class="gallery-media">
+          <img src="${photo.src}" alt="${label}" loading="lazy">
+        </div>
+        <figcaption class="gallery-caption">
+          <span class="gallery-caption-kicker">Inspection view</span>
+          <span class="gallery-label">${label}</span>
+        </figcaption>
+      </figure>
+    `;
+  }
+
+  function rail(title, subtitle, items) {
+    if (!items.length) return '';
+
+    return `
+      <section class="gallery-rail-block">
+        <div class="gallery-rail-header">
+          <div>
+            <div class="gallery-rail-title">${title}</div>
+            <div class="gallery-rail-subtitle">${subtitle}</div>
+          </div>
+          <div class="gallery-swipe-hint" aria-hidden="true">Swipe →</div>
+        </div>
+
+        <div class="gallery-rail" tabindex="0">
+          ${items.map(card).join('')}
+        </div>
+      </section>
+    `;
+  }
+
   return `
-    <div class="gallery-grid">
-      ${photos.map(photo => `
-        <figure class="gallery-card">
-          <img src="${photo.src}" alt="${text(photo.label, 'Device photo')}" loading="lazy">
-          <figcaption class="gallery-label">${text(photo.label, 'Device photo')}</figcaption>
-        </figure>
-      `).join('')}
+    <div class="gallery-shell">
+      ${rail(
+        'Device & Verification',
+        'Front · Back · Battery · Device Info',
+        primary
+      )}
+
+      ${rail(
+        'Frame Inspection',
+        'Top · Bottom · Left · Right',
+        frames
+      )}
     </div>
   `;
 }
