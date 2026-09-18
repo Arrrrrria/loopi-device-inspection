@@ -119,5 +119,49 @@
     "publicNotes": "Trigger test successful",
     "photos": [],
     "disclaimer": "This report reflects the visible condition and testable functions of the device at the time of inspection only.\r\n\r\nThis is not an official Apple certification and does not constitute manufacturer warranty.\r\n\r\nAny later damage, repair, liquid exposure, account lock, or status change may invalidate this report."
+  },
+  "R26-003": {
+    "reportId": "R26-003",
+    "title": "iPhone 18 Pro 256GB Inspection Report",
+    "subtitle": "Verified on 2026-03-09 · Inspector: Ricky",
+    "highlights": {
+      "carrierLock": "Unlocked",
+      "imei": "Clean IMEI",
+      "batteryHealth": "Battery 89%",
+      "condition": "Excellent"
+    },
+    "quickSummary": {
+      "device": "iPhone 15 Pro 256GB Black",
+      "batteryHealth": "89%",
+      "condition": "Excellent",
+      "defects": "No"
+    },
+    "functionalCheck": {
+      "cycleCount": "287",
+      "carrierLock": "Unlocked",
+      "blacklist": "Clean",
+      "activationLock": "Off",
+      "faceId": "Pass",
+      "displayTouchscreen": "Pass",
+      "frontCamera": "Pass",
+      "rearCamera": "Pass",
+      "microphone": "Pass",
+      "speaker": "Pass",
+      "connectivity": "Pass",
+      "charging": "Pass",
+      "buttons": "Pass"
+    },
+    "deviceInformation": {
+      "serialNumber": "",
+      "imei": ""
+    },
+    "cosmeticCondition": {
+      "screen": "",
+      "frame": "",
+      "backGlass": ""
+    },
+    "publicNotes": "",
+    "photos": [],
+    "disclaimer": "This report reflects the visible condition and testable functions of the device at the time of inspection only.\r\n\r\nThis is not an official Apple certification and does not constitute manufacturer warranty.\r\n\r\nAny later damage, repair, liquid exposure, account lock, or status change may invalidate this report."
   }
 }
