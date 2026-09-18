@@ -79,42 +79,42 @@
   "R26-002": {
     "reportId": "R26-002",
     "title": "iPhone 18 Pro 256GB Inspection Report",
-    "subtitle": "Verified on 2026-03-09 · Inspector: Ricky",
+    "subtitle": "",
     "highlights": {
-      "carrierLock": "Unlocked",
-      "imei": "Clean IMEI",
-      "batteryHealth": "Battery 89%",
-      "condition": "Excellent"
+      "carrierLock": "",
+      "imei": "",
+      "batteryHealth": "",
+      "condition": ""
     },
     "quickSummary": {
-      "device": "iPhone 15 Pro 256GB Black",
-      "batteryHealth": "89%",
-      "condition": "Excellent",
-      "defects": "No"
+      "device": "",
+      "batteryHealth": "",
+      "condition": "",
+      "defects": ""
     },
     "functionalCheck": {
-      "cycleCount": "287",
-      "carrierLock": "Unlocked",
-      "blacklist": "Clean",
-      "activationLock": "Off",
-      "faceId": "Pass",
-      "displayTouchscreen": "Pass",
-      "frontCamera": "Pass",
-      "rearCamera": "Pass",
-      "microphone": "Pass",
-      "speaker": "Pass",
-      "connectivity": "Pass",
-      "charging": "Pass",
-      "buttons": "Pass"
+      "cycleCount": "",
+      "carrierLock": "",
+      "blacklist": "",
+      "activationLock": "",
+      "faceId": "",
+      "displayTouchscreen": "",
+      "frontCamera": "",
+      "rearCamera": "",
+      "microphone": "",
+      "speaker": "",
+      "connectivity": "",
+      "charging": "",
+      "buttons": ""
     },
     "deviceInformation": {
       "serialNumber": "",
-      "imei": "Clean IMEI"
+      "imei": ""
     },
     "cosmeticCondition": {
-      "screen": "Excellent",
-      "frame": "Minor wear",
-      "backGlass": "Excellent"
+      "screen": "",
+      "frame": "",
+      "backGlass": ""
     },
     "publicNotes": "",
     "photos": [],
