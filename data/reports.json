@@ -163,5 +163,49 @@
     "publicNotes": "",
     "photos": [],
     "disclaimer": "This report reflects the visible condition and testable functions of the device at the time of inspection only.\r\n\r\nThis is not an official Apple certification and does not constitute manufacturer warranty.\r\n\r\nAny later damage, repair, liquid exposure, account lock, or status change may invalidate this report."
+  },
+  "R26-004": {
+    "reportId": "R26-004",
+    "title": "iPhone Duo",
+    "subtitle": "",
+    "highlights": {
+      "carrierLock": "",
+      "imei": "",
+      "batteryHealth": "",
+      "condition": ""
+    },
+    "quickSummary": {
+      "device": "",
+      "batteryHealth": "",
+      "condition": "",
+      "defects": ""
+    },
+    "functionalCheck": {
+      "cycleCount": "",
+      "carrierLock": "",
+      "blacklist": "",
+      "activationLock": "",
+      "faceId": "",
+      "displayTouchscreen": "",
+      "frontCamera": "",
+      "rearCamera": "",
+      "microphone": "",
+      "speaker": "",
+      "connectivity": "",
+      "charging": "",
+      "buttons": ""
+    },
+    "deviceInformation": {
+      "serialNumber": "",
+      "imei": ""
+    },
+    "cosmeticCondition": {
+      "screen": "",
+      "frame": "",
+      "backGlass": ""
+    },
+    "publicNotes": "",
+    "photos": [],
+    "disclaimer": "This report reflects the visible condition and testable functions of the device at the time of inspection only.\r\n\r\nThis is not an official Apple certification and does not constitute manufacturer warranty.\r\n\r\nAny later damage, repair, liquid exposure, account lock, or status change may invalidate this report."
   }
 }
